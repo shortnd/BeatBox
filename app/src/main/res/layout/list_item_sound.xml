@@ -10,8 +10,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_width"
+        android:onClick="@{() -> viewModel.onButtonClicked()}"
         android:text="@{viewModel.title}"
-        android:onClick="@{() -> viewModel.onButtonClick()}"
         tools:text="Sound Name">
 
     </Button>
